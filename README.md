@@ -70,20 +70,20 @@ ReconVault/
 git clone https://github.com/Christerlin/ReconVault.git
 cd ReconVault
 ````
-##Create virtual environment (recommended)
+## Create virtual environment (recommended)
 ````
 python3 -m venv venv
 source venv/bin/activate
 ````
-##Install Python dependencies
+## Install Python dependencies
 ````
 pip install -r requirements.txt
 ````
-##Usage
+## Usage
 ````
 python3 reconvault.py
 ````
-##Enable auto-run in config.yaml
+## Enable auto-run in config.yaml
 ````
 auto_run:
   enabled: true
@@ -100,16 +100,16 @@ tools:
     enabled: true
 
 ````
-##Legal Notice
+## Legal Notice
 
 ReconVault does not bypass authorization.
 You are responsible for ensuring that all targets are explicitly permitted (CTF, labs, or owned systems).
 
-##Contributing
+## Contributing
 
 This project is educational.
 Pull requests, ideas, and improvements are welcome.
 
-##Author
+## Author
 
 Built by Christerlin as part of hands-on cybersecurity training and CTF practice.
