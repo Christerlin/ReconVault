@@ -1,0 +1,15 @@
+project_name: "ReconVault"
+output_dir: "output"
+
+imports:
+  nmap_xml: true
+  ffuf_json: true
+  gobuster_txt: true
+
+report:
+  formats: ["md", "txt", "json"]
+  include_raw_paths: true
+
+triage:
+  highlight_ports: [80, 443, 8080, 8443, 22, 21, 445, 3389]
+  web_ports: [80, 443, 8080, 8000, 8443]
