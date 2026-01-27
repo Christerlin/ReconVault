@@ -15,6 +15,7 @@ triage:
   web_ports: [80, 443, 8080, 8000, 8443]
 auto_run:
   enabled: true
+  profile: "fast"
 
 tools:
   nmap:
@@ -23,3 +24,4 @@ tools:
     enabled: true
   gobuster:
     enabled: true
+   
