@@ -1,4 +1,4 @@
-# ReconVault 🧭
+# ReconVault 
 
 ReconVault is a **CTF & lab-oriented reconnaissance framework** written in Python.  
 Its goal is to **centralize, normalize, and analyze reconnaissance data** in order to speed up the transition from recon to exploitation.
@@ -7,25 +7,25 @@ Its goal is to **centralize, normalize, and analyze reconnaissance data** in ord
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔎 Automated or import-based reconnaissance
-- 📥 Supports multiple tools:
+-  Automated or import-based reconnaissance
+-  Supports multiple tools:
   - Nmap (ports & services)
   - FFUF (directory & endpoint discovery)
   - Gobuster (content discovery)
   - Httpx (web fingerprinting)
-- 🧠 Recon triage & attack-surface analysis
-- 🗂️ Organized per-target workspace
-- 📝 Report generation in:
+-  Recon triage & attack-surface analysis
+-  Organized per-target workspace
+-  Report generation in:
   - Markdown (`.md`)
   - Plain text (`.txt`)
   - JSON (`.json`)
-- 🧱 Modular & extensible architecture
+-  Modular & extensible architecture
 
 ---
 
-## 🧩 Workflow Overview
+##  Workflow Overview
 
 1. Enter one or more targets interactively
 2. (Optional) ReconVault runs recon tools automatically (Linux/Kali)
@@ -35,7 +35,7 @@ Its goal is to **centralize, normalize, and analyze reconnaissance data** in ord
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ReconVault/
 ├── reconvault.py
@@ -63,7 +63,7 @@ ReconVault/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Clone the repository
 ```bash
